@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Young Forever</title>
+        <link rel="stylesheet" href="styles0.css">
+        <link rel="stylesheet" href="styles1.css">
+        
+    </head>
+    <body>
+
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <div class="dropdown">
+              <button class="dropbtn">Albums 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="YoungForever.html">YOUNG FOREVER</a>
+                <a href="LoveYourselfTear.html">LOVE YOURSELF:TEAR</a>
+              </div>
+            </div> 
+          </div>
+
+        <div class="container">
+            <div class="content">
+                <div class="songs">
+                    <ul>
+                       <li><p>Intro-The Most Beautiful Moment In My Life</p><img src="icon-play.png" id="icon2"></li>
+
+                        <li><p>Epilogue_ Young Forever</p><img src="icon-play.png" id="icon"></li>
+                        
+
+                        <li><p>Save Me</p><img src="icon-play.png" id="icon3"></li>
+                        
+
+                        <li><p>Butterfly</p><img src="icon-play.png" id="icon4"></li>
+                        
+
+                        <li><p>I Need You</p></p><img src="icon-play.png" id="icon5"></li>
+                        
+
+                        <li><p>Run</p><img src="icon-play.png" id="icon6"></li>
+                        
+
+                        <li><p>Converse High</p><img src="icon-play.png" id="icon7"></li>
+                        
+
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+        </div>
+            <audio id="Intro_ The Most Beautiful Moment in Life">
+                <source src="young forever\BTS - Intro_ The Most Beautiful Moment in Life.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+            var Intro = document.getElementById("Intro_ The Most Beautiful Moment in Life");
+            var icon1 = document.getElementById("icon1");
+            
+            icon1.onclick=function(){
+                if(Intro.paused){
+                    Intro.play();
+                    icon1.src = "icon-pause.png";
+                }else{
+                    Intro.pause();
+                    icon1.src = "icon-play.png";
+                }
+            }
+            </script>
+
+
+            <audio id="Epilogue-Young Forever">
+                <source src="young forever\BTS - Epilogue_ Young Forever.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+            var  Epilogue = document.getElementById("Epilogue-Young Forever");
+            var icon = document.getElementById("icon");
+
+            icon.onclick=function(){
+                if(Epilogue.paused){
+                    Epilogue.play();
+                    icon.src = "icon-pause.png";
+                }else{
+                    Epilogue.pause();
+                    icon.src = "icon-play.png";
+                }
+            }
+            </script>
+
+            <audio id="SaveMe">
+                <source src="young forever\BTS - Save Me.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+            var SaveMe = document.getElementById("SaveMe");
+            var icon3 = document.getElementById("icon3");
+
+            icon3.onclick=function(){
+                if(SaveMe.paused){
+                    SaveMe.play();
+                    icon3.src = "icon-pause.png";
+                }else{
+                    SaveMe.pause();
+                    icon3.src = "icon-play.png";
+                }
+            }
+            </script>
+
+
+            <audio id="Butterfly">
+                <source src="young forever\BTS - Butterfly (Prologue Mix).mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+            var butterfly = document.getElementById("Butterfly");
+            var icon4 = document.getElementById("icon4");
+
+            icon4.onclick=function(){
+                if(butterfly.paused){
+                    butterfly.play();
+                    icon4.src = "icon-pause.png";
+                }else{
+                    butterfly.pause();
+                    icon4.src = "icon-play.png";
+                }
+            }
+            </script>
+
+            <audio id="INeedYou">
+                <source src="young forever\BTS - I Need U.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+            var iNeedYou = document.getElementById("INeedYou");
+            var icon5 = document.getElementById("icon5");
+
+            icon5.onclick=function(){
+                if(iNeedYou.paused){
+                    iNeedYou.play();
+                    icon5.src = "icon-pause.png";
+                }else{
+                    iNeedYou.pause();
+                    icon5.src = "icon-play.png";
+                }
+            }
+            </script>
+
+            
+            <audio id="Run">
+                <source src="young forever\BTS - Run.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+            var run = document.getElementById("Run");
+            var icon6 = document.getElementById("icon6");
+
+            icon6.onclick=function(){
+                if(run.paused){
+                    run.play();
+                    icon6.src = "icon-pause.png";
+                }else{
+                    run.pause();
+                    icon6.src = "icon-play.png";
+                }
+            }
+            </script>
+            <audio id="ConversHigh">
+                <source src="young forever\BTS - Converse High.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+            var ConversHigh = document.getElementById("ConversHigh");
+            var icon7 = document.getElementById("icon7");
+
+            icon7.onclick=function(){
+                if(ConversHigh.paused){
+                    ConversHigh.play();
+                    icon7.src = "icon-pause.png";
+                }else{
+                    ConversHigh.pause();
+                    icon7.src = "icon-play.png";
+                }
+            }
+            </script>
+        </body>

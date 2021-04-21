@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Young Forever</title>
+        <link rel="stylesheet" href="styles0.css">
+        <link rel="stylesheet" href="styles2.css">
+        
+    </head>
+    <body>
+
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <div class="dropdown">
+              <button class="dropbtn">Albums 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="YoungForever.html">YOUNG FOREVER</a>
+                <a href="LoveYourselfTear.html">LOVE YOURSELF:TEAR</a>
+              </div>
+            </div> 
+          </div>
+
+        <div class="container">
+            <div class="content">
+                <div class="songs">
+                    <ul>
+                        <li><p>Intro- Singularity</p><img src="icon-play.png" id="icon1"></li>
+                        
+                        <li><p>Outro-Tear </p><img src="icon-play.png" id="icon2"></li>
+                        
+                        <li><p>Fake Love</p><img src="icon-play.png" id="icon3"></li>
+                        
+                        <li><p>Love Maze</p><img src="icon-play.png" id="icon4"></li>
+                        
+                        <li><p>Magic Shop</p><img src="icon-play.png" id="icon5"></li>
+                        
+                        <li><p>Anpanman</p><img src="icon-play.png" id="icon6"></li>
+                        
+                        <li><p>Paradise</p><img src="icon-play.png" id="icon7"></li>
+                        
+                    </ul>   
+            </div>
+        </div>
+            <audio id="Intro-Singularity">
+                <source src="love yourself tear\BTS - Intro_ Singularity.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="Outro-Tear">
+                <source src="love yourself tear\BTS - Outro_ Tear.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="Fake Love">
+                <source src="love yourself tear\BTS - FAKE LOVE.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="Love Maze">
+                <source src="love yourself tear\BTS - Love Maze.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="Magic Shop">
+                <source src="love yourself tear\BTS - Magic Shop.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="Anpanman">
+                <source src="love yourself tear\BTS - Anpanman.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="Paradise">
+                <source src="love yourself tear\BTS - Paradise.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+            var Singularity = document.getElementById("Intro-Singularity");
+            var icon1 = document.getElementById("icon1");
+            
+            icon1.onclick=function(){
+                if(Singularity.paused){
+                    Singularity.play();
+                    icon1.src = "icon-pause.png";
+                }else{
+                    Singularity.pause();
+                    icon1.src = "icon-play.png";
+                }
+            }
+
+            var Tear = document.getElementById("Outro-Tear");
+            var icon2 = document.getElementById("icon2");
+            
+            icon2.onclick=function(){
+                if(Tear.paused){
+                    Tear.play();
+                    icon2.src = "icon-pause.png";
+                }else{
+                    Tear.pause();
+                    icon2.src = "icon-play.png";
+                }
+            }
+
+            
+            var FakeLove = document.getElementById("Fake Love");
+            var icon3 = document.getElementById("icon3");
+            
+            icon3.onclick=function(){
+                if(FakeLove.paused){
+                    FakeLove.play();
+                    icon3.src = "icon-pause.png";
+                }else{
+                    FakeLove.pause();
+                    icon3.src = "icon-play.png";
+                }
+            }
+
+            
+            var LoveMaze = document.getElementById("Love Maze");
+            var icon4 = document.getElementById("icon4");
+            
+            icon4.onclick=function(){
+                if(LoveMaze.paused){
+                    LoveMaze.play();
+                    icon4.src = "icon-pause.png";
+                }else{
+                    LoveMaze.pause();
+                    icon4.src = "icon-play.png";
+                }
+            }
+
+            
+            var MagicShop = document.getElementById("Magic Shop");
+            var icon5 = document.getElementById("icon5");
+            
+            icon5.onclick=function(){
+                if(MagicShop.paused){
+                    MagicShop.play();
+                    icon5.src = "icon-pause.png";
+                }else{
+                    MagicShop.pause();
+                    icon5.src = "icon-play.png";
+                }
+            }
+
+            
+            var Anpanman = document.getElementById("Anpanman");
+            var icon6 = document.getElementById("icon6");
+            
+            icon6.onclick=function(){
+                if(Anpanman.paused){
+                    Anpanman.play();
+                    icon6.src = "icon-pause.png";
+                }else{
+                    Anpanman.pause();
+                    icon6.src = "icon-play.png";
+                }
+            }
+
+            
+            var Paradise = document.getElementById("Paradise");
+            var icon7 = document.getElementById("icon7");
+            
+            icon7.onclick=function(){
+                if(Paradise.paused){
+                    Paradise.play();
+                    icon7.src = "icon-pause.png";
+                }else{
+                    Paradise.pause();
+                    icon7.src = "icon-play.png";
+                }
+            }
+
+            </script>
+
+        
+    </body>

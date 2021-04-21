@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    
+    height:673px;
+    width:100%;
+    background-image: url(https://images.hdqwalls.com/wallpapers/bts-samsung-2020-gq.jpg);
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.songs{
+    float:left;
+    margin-left: 20%;
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+}
+
+.songs ul li{
+
+    
+    list-style: none;
+    display: table;
+    font-size: 20px;
+    color:rgb(224, 213, 222);
+    font-weight: bold;
+}
+
+.songs ul li p{
+    
+    margin:20px;
+    display: inline-block;
+    vertical-align: middle;;
+}
+
+
+img{
+    float: left;
+    margin: 0 0 10px 0;
+    padding: 2px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.content{
+    height: 85vh;
+    width: 35%;
+    background: rgba(53, 55, 56, 0.6);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 20px;
+    }
+    
